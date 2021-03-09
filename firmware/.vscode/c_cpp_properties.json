@@ -1,0 +1,102 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/jack/workspace/keyboard/firmware/include",
+                "/Users/jack/workspace/keyboard/firmware/src",
+                "/Users/jack/workspace/keyboard/firmware/.pio/libdeps/seeed_xiao/Keyboard/src",
+                "/Users/jack/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                "/Users/jack/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/cores/arduino",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore/tinyusb/src",
+                "/Users/jack/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/variants/XIAO_m0",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/HID",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA/utility",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/EnergySaving/src",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/FlashStorage/src",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/I2S/src",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/LoRaWan",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/SPI",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_FreeRTOS/src",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_LCD",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/SoftwareSerial",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTC3",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTCC0",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/USBHost/src",
+                "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/Wire",
+                "/Users/jack/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/jack/workspace/keyboard/firmware/include",
+                    "/Users/jack/workspace/keyboard/firmware/src",
+                    "/Users/jack/workspace/keyboard/firmware/.pio/libdeps/seeed_xiao/Keyboard/src",
+                    "/Users/jack/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                    "/Users/jack/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/cores/arduino",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/cores/arduino/TinyUSB/Adafruit_TinyUSB_ArduinoCore/tinyusb/src",
+                    "/Users/jack/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/variants/XIAO_m0",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/HID",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/Adafruit_ZeroDMA/utility",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/EnergySaving/src",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/FlashStorage/src",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/I2S/src",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/LoRaWan",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/SPI",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_FreeRTOS/src",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/Seeed_Arduino_LCD",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/SoftwareSerial",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTC3",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/TimerTCC0",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/USBHost/src",
+                    "/Users/jack/.platformio/packages/framework-arduino-samd-seeed/libraries/Wire",
+                    "/Users/jack/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50100",
+                "ARDUINO_SAMD_ZERO",
+                "__SAMD21__",
+                "__SAMD21G18A__",
+                "ARM_MATH_CM0PLUS",
+                "SEEED_XIAO_M0",
+                "ARDUINO=10805",
+                "F_CPU=48000000L",
+                "USBCON",
+                "USB_VID=0x2886",
+                "USB_PID=0x802F",
+                "USB_PRODUCT=\"Seeeduino XIAO\"",
+                "USB_MANUFACTURER=\"Seeed\"",
+                "ARDUINO_ARCH_SAMD",
+                "USB_CONFIG_POWER=100",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/jack/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
